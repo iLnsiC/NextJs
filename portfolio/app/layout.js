@@ -9,8 +9,9 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  console.log(children.props)
   return (
-    <html lang="en">
+    <html lang="fr">
       <body className={inter.className}>{children}</body>
     </html>
   )
